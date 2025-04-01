@@ -15,7 +15,7 @@ on:
         required: false
         default: 'packages-24.10'  
 schedule:
-    - cron: '0 6 * * 1'  # 星期一的 6:00 UTC
+    - cron: '0 6 * * 1'  # 星期三的 6:00 UTC
 jobs:
   build:
     runs-on: ubuntu-22.04 
